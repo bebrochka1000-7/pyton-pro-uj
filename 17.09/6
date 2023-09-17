@@ -1,0 +1,8 @@
+x=input("x число")
+y=input("y число")
+h=input("h число")
+x=int( x)
+y=int( y)
+h=int(h )
+
+print(x,"+" ,  y , "+", h , "=",x + y + h)
