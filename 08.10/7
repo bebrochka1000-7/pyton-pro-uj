@@ -1,0 +1,6 @@
+x=int(input("1 участник"))
+y=int(input("2 учатник"))
+z=int(input("3 участник"))
+a=int((x+y+z) // 60)
+b=int((x+y+z) % 60)
+print(a, b)
