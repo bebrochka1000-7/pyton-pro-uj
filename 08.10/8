@@ -1,0 +1,6 @@
+n=int(input("школьники"))
+k=int(input("мандарины"))
+a= int(k//n)
+b= int(k%n)
+print(a)
+print(b)
