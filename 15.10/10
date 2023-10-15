@@ -1,0 +1,4 @@
+import pyautogui
+pyautogui.move(1150,-100)
+pyautogui.doubleClick()
+
