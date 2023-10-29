@@ -1,0 +1,11 @@
+import pyautogui
+
+
+x=int(input("какой пароль?"))
+y=input("какой логин?")
+Truex=76898
+Truey="tyur"
+if(x==Truex):
+    if(y==Truey):
+        
+
