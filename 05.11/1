@@ -1,0 +1,18 @@
+import pyautogui
+
+
+x=int(input("какой пароль?"))
+y=input("какой логин?")
+Truex=76898
+Truey="tyur"
+
+if(x==Truex):
+    if(y==Truey):
+        pyautogui.moveTo(1800,25)
+        pyautogui.doubleClick()
+        pyautogui.doubleClick()
+        pyautogui.doubleClick()
+if(x!=Truex and y!=Truey):
+        print("логин неверен")
+        print("пароль неверен")
+        print("логин и пароль неверны")
