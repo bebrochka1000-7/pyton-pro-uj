@@ -1,0 +1,17 @@
+import pyautogui
+import keyboard
+x=int(input("Какая температура"))
+y=int(input("Какая влажность"))
+flag=0
+
+if(x>60 and y<10 or x<30 and y>30 and flag==1):
+    pyautogui.moveTo(600,1055)
+    pyautogui.click(button='left')
+    print("Тревога!")
+    pyautogui.moveTo(600,400)
+    pyautogui.click(button='left')
+    keyboard.write("что делать при нарушении условий в оранжерее")
+    pyautogui.press('enter')
+if(x<60 and y>10 or x>30 and y<30 and flag==1):
+    
+    print("всё нормально")
