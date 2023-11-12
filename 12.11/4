@@ -1,0 +1,9 @@
+x=int(input("первое число"))
+y=int(input("второе число"))
+z=int(input("третье число"))
+a=int(input("четвертое число"))
+if(x>6 or y>6 or z>6 or a>6):
+    print("Замени от греха подальше")
+if(x<7 and y<7 and z<7 and a<7):
+    print("Все хорошо,едем")
+    
