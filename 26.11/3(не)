@@ -1,0 +1,14 @@
+x=203
+x1=int(input())
+y="login"
+y1=str(input())
+while(x1!=x):
+    print("пароль неверен")
+    x1=int(input("пароль"))
+while(y1!=y):
+    print("логин неверен")
+    
+    y1=str(input("логин"))
+while(x1!=x or y1!=y):
+    print("логин неверен")
+    y1=str(input())
