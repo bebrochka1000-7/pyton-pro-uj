@@ -1,0 +1,15 @@
+x="login"
+x1=str(input())
+while(x!=x1):
+    print("неверный логин")
+    x1=str(input())
+print("верный логин")
+    
+y=203
+y1=int(input())
+while(y!=y1):
+    print("неверный пароль")
+    y1=int(input())
+print("верный пароль")
+if(x=="login" and y==203):
+    print("успешно")
