@@ -1,0 +1,8 @@
+x=10
+x1=int(input())
+
+while(x!=x1):
+    print("неверный пароль")
+    x1=int(input())
+print("молодец")
+    
