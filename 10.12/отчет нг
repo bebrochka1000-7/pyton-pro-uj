@@ -1,0 +1,26 @@
+import pyautogui
+import time
+#bongocat
+x="да"
+y="нет"
+
+x1=input(str("ты любишь песни которые играют кошки"))
+if(x1==x):
+    print("тогда послушай этот шедевр")
+    time.sleep(2)
+    pyautogui.hotkey('win','r')
+    time.sleep(2)
+    pyautogui.press('enter')
+    time.sleep(1)
+    
+    pyautogui.moveTo(900,50)
+    time.sleep(1)
+    
+    pyautogui.click()
+    
+    
+    
+if(x1==y):
+    print("как так")
+    
+    
