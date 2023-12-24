@@ -1,0 +1,160 @@
+import pyautogui
+import time
+
+#bongocat
+x="да"
+y="нет"
+x2="я не люблю кошек"
+y2=0
+
+
+
+x1=input(str('ты любишь песни которые играют кошки'))
+if(x1==x):
+    print('тогда послушай этот шедевр')
+    pyautogui.hotkey('shift','alt')
+
+    pyautogui.hotkey('win','r')
+    
+    pyautogui.write('https://bongo.cat/')
+    
+    
+    pyautogui.press('enter')
+    pyautogui.moveTo(170,1000)
+    pyautogui.click()
+    time.sleep(2)
+    pyautogui.press('3')
+    time.sleep(0.5)
+    pyautogui.press('4')
+    time.sleep(0.5)
+    pyautogui.press('5')
+    time.sleep(0.5)
+    pyautogui.press('2')
+    time.sleep(0.5)
+    pyautogui.press('6')
+    time.sleep(0.5)
+    pyautogui.press('5')
+    time.sleep(0.5)
+    pyautogui.press('7')
+    time.sleep(0.5)
+    pyautogui.press('3')
+    time.sleep(0.5)
+    pyautogui.press('4')
+    time.sleep(0.5)
+    pyautogui.press('8')
+    time.sleep(0.5)
+    pyautogui.press('6')
+    time.sleep(0.5)
+    pyautogui.press('5')
+    time.sleep(0.5)
+    pyautogui.press('4')
+    time.sleep(0.5)
+    pyautogui.press('3')
+    time.sleep(0.5)
+    pyautogui.press('8')
+    time.sleep(0.5)
+    pyautogui.press('8')
+    time.sleep(0.5)
+    pyautogui.press('2')
+    time.sleep(0.5)
+    pyautogui.press('3')
+    time.sleep(0.5)
+    
+    pyautogui.press('space')
+    
+    
+if(x1==y):
+    
+    print('у тебя сейчас голова взорвется')
+    pyautogui.hotkey('shift','alt')
+
+    pyautogui.hotkey('win','r')
+    
+    pyautogui.write('https://bongo.cat/')
+    
+    
+    pyautogui.press('enter')
+    pyautogui.moveTo(170,1000)
+    pyautogui.click()
+    time.sleep(2)
+    pyautogui.press('R')
+    time.sleep(0.5)
+    
+    pyautogui.press('H')
+    time.sleep(0.5)
+    
+    pyautogui.press('5')
+    time.sleep(0.5)
+    
+    pyautogui.press('A')
+    time.sleep(0.5)
+    
+    pyautogui.press('space')
+    time.sleep(0.5)
+    
+    pyautogui.press('G')
+    time.sleep(0.5)
+    
+    pyautogui.press('7')
+    time.sleep(0.5)
+    
+    pyautogui.press('space')
+    time.sleep(0.5)
+    
+    pyautogui.press('S')
+    time.sleep(0.5)
+   
+    pyautogui.press('6')
+    time.sleep(0.5)
+   
+    pyautogui.press('J')
+    time.sleep(0.5)
+    
+    pyautogui.press('5')
+    
+    pyautogui.press('H')
+    time.sleep(0.5)
+    
+    pyautogui.press('space')
+    time.sleep(0.5)
+    
+    pyautogui.press('8')
+    
+   
+    pyautogui.press('D')
+    time.sleep(0.5)
+   
+    pyautogui.press('F')
+    time.sleep(0.5)
+   
+    pyautogui.press('3')
+    time.sleep(0.5)
+    
+    pyautogui.press('space')
+    
+    pyautogui.press('R')
+    time.sleep(0.5)
+    
+    pyautogui.press('H')
+    time.sleep(0.5)
+
+if(x1==x2):
+    print("тогда слушай мурлыканье котов")
+    pyautogui.hotkey('shift','alt')
+
+    pyautogui.hotkey('win','r')
+    
+    pyautogui.write('https://bongo.cat/')
+    
+    
+    pyautogui.press('enter')
+    pyautogui.moveTo(170,1000)
+    pyautogui.click()
+    time.sleep(0.5)
+while(y2!=10 ):
+    y2=y2+1
+    
+    
+    pyautogui.press('space')
+    time.sleep(0.5)
+    
