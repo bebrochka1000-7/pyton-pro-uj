@@ -1,0 +1,32 @@
+import pyautogui
+import time
+x1=0
+print("Спрашивает отец у старшего сына")
+x=str(input("Что бы ты хотел на нг"))
+if(x=="компьютер"):
+    pyautogui.hotkey("shift","alt")
+    time.sleep(1)
+    pyautogui.hotkey("win","r")
+    time.sleep(1)
+    pyautogui.moveTo(400,930)
+    pyautogui.click()
+    pyautogui.press("delete")
+    time.sleep(3)
+    pyautogui.write("https://www.nix.ru/autocatalog/hp/hp_computers/hp-Pro-3500-plus-Monitor-W2072a-C5Y11EA-ACB-i3-3220-2-500-DVD-RW-DOS-20_151289.html")
+    pyautogui.moveTo(160,990)
+    pyautogui.click()
+    time.sleep(5)
+    pyautogui.moveTo(1200,1050)
+    pyautogui.click()
+else:(x=="машина")
+pyautogui.hotkey("shift","alt")
+time.sleep(1)
+pyautogui.hotkey("win","r")
+time.sleep(1)
+pyautogui.moveTo(400,930)
+pyautogui.click()
+pyautogui.keyDown("delete")
+time.sleep(30)
+pyautogui.write("https://www.gazeta.ru/auto/2022/10/13/15618871.shtml?updated")
+
+        
