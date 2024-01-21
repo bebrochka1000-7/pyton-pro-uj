@@ -1,0 +1,5 @@
+step=int(input("Сколько раз"))
+for i in range(int(step/2)):
+    print("привет")
+    
+
