@@ -1,0 +1,6 @@
+su=0
+n=int(input("Сколько раз"))
+for i in range(n):
+    su=su+i
+print(su)
+    
