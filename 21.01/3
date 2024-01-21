@@ -1,0 +1,7 @@
+step=int(input("Сколько"))
+
+su=0
+for i in range(step):
+    x =int(input("число"))
+    su=su+x
+print(su)
