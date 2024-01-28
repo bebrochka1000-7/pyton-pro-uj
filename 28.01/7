@@ -1,0 +1,8 @@
+x=int(input("1 аргумент"))
+y=int(input("2 аргумент"))
+z=int(input("3 аргумент"))
+for step in range(x,y,z):
+   print(step)
+if((z>x and z>y)or(z<x and z<y)or(z<x and z>y)):
+    print("неправильно")
+
