@@ -1,0 +1,9 @@
+def draw_triangle(y):
+    for i in range(y):
+        
+    
+        print("*" * (i+1))
+x=0
+x=int(input("Сколько"))
+draw_triangle(x)
+   
