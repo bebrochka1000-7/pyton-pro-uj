@@ -1,0 +1,11 @@
+def d(f,b):
+    for i in range(b//2+1):
+        print(f*(i+1))
+    for i in range(b//2,0,-1):
+        print(f*i)
+    
+
+f=str(input("какой"))
+b=int(input("сколько"))
+d(f,b)
+   
