@@ -1,0 +1,9 @@
+def fio(n,s,p):
+    n=str(input("Имя"))
+    s=str(input("Фам"))
+    p=str(input("Отч"))
+    print(n,s,p)
+fio(n,s,p)
+n=0
+s=0
+p=0
