@@ -1,0 +1,10 @@
+def f(n_f,s_f,p_f):
+    return n_f[0]+s_f[0]+p_f[0] 
+n=str(input("Имя"))
+s=str(input("Фам"))
+p=str(input("Отч"))
+print(n,s,p)
+
+print(f(n,s,p))
+
+
